@@ -1,0 +1,356 @@
+{
+  "assumptions": {
+    "snapshot_date": "2026-11-11",
+    "start": "2027-07-01",
+    "status_quo": "Pre-2026-Budget counterfactual, including previously legislated 14% first bracket from 2027-28; no 2026 Budget standard deduction or WATO.",
+    "spender": "Alternative package: 13/27.5/34.5/42.5% labour rates, 30% CGT discount, broad investment loss ring-fence. Labour >45k means investment minimum does not separately bind.",
+    "budget": "14/30/37/45% basic rates, $1000 standard work deduction and $250 WATO; established residential acquisition after 1 July 2027; indexed gains net of rental losses; 30% basic-tax floor before 2% levy.",
+    "loss_order": "Spender main case assumes losses deducted before discount; after-discount sensitivity supplied, as White Paper not legislative on ordering.",
+    "timing": "Annual end-of-year cash flows, disposal and CGT paid at final year end.",
+    "exclusions": "No HELP, Medicare surcharge, offsets other than WATO, transaction costs, depreciation, dividends, company tax, fees or superannuation; 2% flat Medicare appropriate to principal high-income cases.",
+    "limitations": "Nominal incomes, brackets and parameters frozen; no behavioural adjustment or price response; not a revenue or welfare estimate. Equity is pure capital appreciation, not a typical distributing ETF."
+  },
+  "scenario_a": {
+    "inflation_factor": 1.1886857536682123,
+    "indexed_cost_base": 1188685.7536682123,
+    "indexed_gain_before_rental_losses": 211314.24633178767,
+    "main": {
+      "status_quo": {
+        "wage_tax_without_investment": 59602.0,
+        "annual_wage_tax_relief": 0.0,
+        "annual_rental_loss_tax_relief": 6650.0,
+        "annual_investment_cash_shortfall": 8350.0,
+        "annual_cash_shortfall_net_wage_relief": 8350.0,
+        "included_gain": 200000.0,
+        "incremental_exit_cgt": 93600.0,
+        "lifetime_net_investment_tax": 47050.0,
+        "lifetime_total_tax": 464264.0,
+        "nominal_investment_profit": 247950.0,
+        "profit_plus_uninvested_wage_tax_relief": 247950.0,
+        "investment_irr": 0.11327444822658406,
+        "investment_npv_5pct": 111572.80770962374,
+        "investment_cash_flows": [
+          -200000,
+          -8350.0,
+          -8350.0,
+          -8350.0,
+          -8350.0,
+          -8350.0,
+          -8350.0,
+          498050.0
+        ]
+      },
+      "spender": {
+        "wage_tax_without_investment": 55459.0,
+        "annual_wage_tax_relief": 4143.0,
+        "annual_rental_loss_tax_relief": 0,
+        "annual_investment_cash_shortfall": 15000,
+        "annual_cash_shortfall_net_wage_relief": 10857.0,
+        "included_gain": 206500.0,
+        "incremental_exit_cgt": 91892.5,
+        "lifetime_net_investment_tax": 91892.5,
+        "lifetime_total_tax": 480105.5,
+        "nominal_investment_profit": 203107.5,
+        "profit_plus_uninvested_wage_tax_relief": 232108.5,
+        "investment_irr": 0.09161466582889155,
+        "investment_npv_5pct": 74306.91298812711,
+        "investment_cash_flows": [
+          -200000,
+          -15000,
+          -15000,
+          -15000,
+          -15000,
+          -15000,
+          -15000,
+          493107.5
+        ]
+      },
+      "budget": {
+        "wage_tax_without_investment": 58882.0,
+        "annual_wage_tax_relief": 720.0,
+        "annual_rental_loss_tax_relief": 0,
+        "annual_investment_cash_shortfall": 15000,
+        "annual_cash_shortfall_net_wage_relief": 14280.0,
+        "included_gain": 106314.24633178767,
+        "incremental_exit_cgt": 49967.695775940214,
+        "lifetime_net_investment_tax": 49967.695775940214,
+        "lifetime_total_tax": 462141.6957759402,
+        "nominal_investment_profit": 245032.3042240598,
+        "profit_plus_uninvested_wage_tax_relief": 250072.3042240598,
+        "investment_irr": 0.10606869031620925,
+        "investment_npv_5pct": 104102.08861952684,
+        "investment_cash_flows": [
+          -200000,
+          -15000,
+          -15000,
+          -15000,
+          -15000,
+          -15000,
+          -15000,
+          535032.3042240598
+        ]
+      }
+    },
+    "spender_after_discount_loss_sensitivity": {
+      "included_gain": 175000.0,
+      "cgt": 77875.0,
+      "investment_profit": 217125.0,
+      "profit_plus_uninvested_wage_relief": 246126.0
+    },
+    "budget_newbuild_sensitivity": {
+      "annual_loss_tax_relief": 6570.0,
+      "discount_cgt": 93520.0,
+      "indexation_cgt": 98837.69577594021,
+      "investment_profit": 247470.0
+    }
+  },
+  "scenario_b": {
+    "annual_consumption": 64348.0,
+    "main": {
+      "status_quo": {
+        "annual_wage_tax": 20652.0,
+        "annual_take_home_wage": 74348.0,
+        "annual_wage_tax_relief": 0.0,
+        "five_year_wage_tax": 103260.0,
+        "five_year_uninvested_tax_relief": 0.0,
+        "annual_deposit_contribution": 10000.0,
+        "five_year_interest_tax": 1315.292073426944,
+        "five_year_total_tax": 104575.29207342694,
+        "five_year_deposit_balance": 52794.99565603225,
+        "ledger": [
+          {
+            "year": 1,
+            "interest": 0.0,
+            "interest_tax": 0.0,
+            "end_balance": 10000.0
+          },
+          {
+            "year": 2,
+            "interest": 400.0,
+            "interest_tax": 128.0,
+            "end_balance": 20272.0
+          },
+          {
+            "year": 3,
+            "interest": 810.88,
+            "interest_tax": 259.4816,
+            "end_balance": 30823.3984
+          },
+          {
+            "year": 4,
+            "interest": 1232.9359359999999,
+            "interest_tax": 394.53949951999994,
+            "end_balance": 41661.794836479996
+          },
+          {
+            "year": 5,
+            "interest": 1666.4717934592,
+            "interest_tax": 533.2709739069439,
+            "end_balance": 52794.99565603225
+          }
+        ]
+      },
+      "spender": {
+        "annual_wage_tax": 19134.0,
+        "annual_take_home_wage": 75866.0,
+        "annual_wage_tax_relief": 1518.0,
+        "five_year_wage_tax": 95670.0,
+        "five_year_uninvested_tax_relief": 7590.0,
+        "annual_deposit_contribution": 11518.0,
+        "five_year_interest_tax": 1397.9947596248307,
+        "five_year_total_tax": 97067.99475962482,
+        "five_year_deposit_balance": 60930.970527239,
+        "ledger": [
+          {
+            "year": 1,
+            "interest": 0.0,
+            "interest_tax": 0.0,
+            "end_balance": 11518.0
+          },
+          {
+            "year": 2,
+            "interest": 460.72,
+            "interest_tax": 135.9124,
+            "end_balance": 23360.8076
+          },
+          {
+            "year": 3,
+            "interest": 934.432304,
+            "interest_tax": 275.65752968,
+            "end_balance": 35537.58237432
+          },
+          {
+            "year": 4,
+            "interest": 1421.5032949728002,
+            "interest_tax": 419.343472016976,
+            "end_balance": 48057.742197275824
+          },
+          {
+            "year": 5,
+            "interest": 1922.309687891033,
+            "interest_tax": 567.0813579278547,
+            "end_balance": 60930.970527239
+          }
+        ]
+      },
+      "budget": {
+        "annual_wage_tax": 20082.0,
+        "annual_take_home_wage": 74918.0,
+        "annual_wage_tax_relief": 570.0,
+        "five_year_wage_tax": 100410.0,
+        "five_year_uninvested_tax_relief": 2850.0,
+        "annual_deposit_contribution": 10570.0,
+        "five_year_interest_tax": 1390.2637216122798,
+        "five_year_total_tax": 101800.26372161228,
+        "five_year_deposit_balance": 55804.3104084261,
+        "ledger": [
+          {
+            "year": 1,
+            "interest": 0.0,
+            "interest_tax": 0.0,
+            "end_balance": 10570.0
+          },
+          {
+            "year": 2,
+            "interest": 422.8,
+            "interest_tax": 135.296,
+            "end_balance": 21427.504
+          },
+          {
+            "year": 3,
+            "interest": 857.1001600000001,
+            "interest_tax": 274.2720512,
+            "end_balance": 32580.3321088
+          },
+          {
+            "year": 4,
+            "interest": 1303.213284352,
+            "interest_tax": 417.02825099264004,
+            "end_balance": 44036.51714215936
+          },
+          {
+            "year": 5,
+            "interest": 1761.4606856863745,
+            "interest_tax": 563.6674194196398,
+            "end_balance": 55804.3104084261
+          }
+        ]
+      }
+    }
+  },
+  "scenario_c": {
+    "principal": 100000,
+    "wage": 150000,
+    "years": 15,
+    "nominal_terminal_value": 317216.9114198272,
+    "nominal_gain": 217216.9114198272,
+    "main": {
+      "0.025": {
+        "status_quo": {
+          "indexed_cost_base": null,
+          "included_gain": 108608.4557099136,
+          "incremental_exit_cgt": 47845.97418365939,
+          "cgt_over_nominal_gain": 0.22026818202559198,
+          "cgt_over_inflation_adjusted_gain": 0.27754962891793783,
+          "terminal_investment_wealth": 269370.93723616784,
+          "nominal_profit": 169370.93723616784,
+          "after_tax_nominal_cagr": 0.06829217957584333,
+          "after_tax_real_cagr": 0.04223627275692032,
+          "annual_wage_tax_relief": 0.0,
+          "cumulative_wage_tax_relief": 0.0,
+          "terminal_wealth_plus_uninvested_wage_relief": 269370.93723616784,
+          "lifetime_total_tax": 637375.9741836594
+        },
+        "spender": {
+          "indexed_cost_base": null,
+          "included_gain": 152051.83799387902,
+          "incremental_exit_cgt": 64463.067907276156,
+          "cgt_over_nominal_gain": 0.2967681820255919,
+          "cgt_over_inflation_adjusted_gain": 0.37394369916888,
+          "terminal_investment_wealth": 252753.84351255104,
+          "nominal_profit": 152753.84351255104,
+          "after_tax_nominal_cagr": 0.06376701056160772,
+          "after_tax_real_cagr": 0.03782147371864175,
+          "annual_wage_tax_relief": 2893.0,
+          "cumulative_wage_tax_relief": 43395.0,
+          "terminal_wealth_plus_uninvested_wage_relief": 296148.84351255104,
+          "lifetime_total_tax": 610598.0679072761
+        },
+        "budget": {
+          "indexed_cost_base": 144829.81664981096,
+          "included_gain": 172387.09477001624,
+          "incremental_exit_cgt": 77741.93454190764,
+          "cgt_over_nominal_gain": 0.35790000895303903,
+          "cgt_over_inflation_adjusted_gain": 0.4509730536710078,
+          "terminal_investment_wealth": 239474.97687791957,
+          "nominal_profit": 139474.97687791957,
+          "after_tax_nominal_cagr": 0.05994665669160537,
+          "after_tax_real_cagr": 0.034094299211322454,
+          "annual_wage_tax_relief": 640.0,
+          "cumulative_wage_tax_relief": 9600.0,
+          "terminal_wealth_plus_uninvested_wage_relief": 249074.97687791957,
+          "lifetime_total_tax": 657671.9345419076
+        }
+      },
+      "0.05": {
+        "status_quo": {
+          "indexed_cost_base": null,
+          "included_gain": 108608.4557099136,
+          "incremental_exit_cgt": 47845.97418365939,
+          "cgt_over_nominal_gain": 0.22026818202559198,
+          "cgt_over_inflation_adjusted_gain": 0.43765260393387684,
+          "terminal_investment_wealth": 269370.93723616784,
+          "nominal_profit": 169370.93723616784,
+          "after_tax_nominal_cagr": 0.06829217957584333,
+          "after_tax_real_cagr": 0.01742112340556501,
+          "annual_wage_tax_relief": 0.0,
+          "cumulative_wage_tax_relief": 0.0,
+          "terminal_wealth_plus_uninvested_wage_relief": 269370.93723616784,
+          "lifetime_total_tax": 637375.9741836594
+        },
+        "spender": {
+          "indexed_cost_base": null,
+          "included_gain": 152051.83799387902,
+          "incremental_exit_cgt": 64463.067907276156,
+          "cgt_over_nominal_gain": 0.2967681820255919,
+          "cgt_over_inflation_adjusted_gain": 0.5896510627809726,
+          "terminal_investment_wealth": 252753.84351255104,
+          "nominal_profit": 152753.84351255104,
+          "after_tax_nominal_cagr": 0.06376701056160772,
+          "after_tax_real_cagr": 0.013111438630102557,
+          "annual_wage_tax_relief": 2893.0,
+          "cumulative_wage_tax_relief": 43395.0,
+          "terminal_wealth_plus_uninvested_wage_relief": 296148.84351255104,
+          "lifetime_total_tax": 610598.0679072761
+        },
+        "budget": {
+          "indexed_cost_base": 207892.81794113686,
+          "included_gain": 109324.09347869034,
+          "incremental_exit_cgt": 48102.323934984466,
+          "cgt_over_nominal_gain": 0.22144833761131255,
+          "cgt_over_inflation_adjusted_gain": 0.43999746445975024,
+          "terminal_investment_wealth": 269114.58748484275,
+          "nominal_profit": 169114.58748484275,
+          "after_tax_nominal_cagr": 0.0682243726738414,
+          "after_tax_real_cagr": 0.017356545403658385,
+          "annual_wage_tax_relief": 640.0,
+          "cumulative_wage_tax_relief": 9600.0,
+          "terminal_wealth_plus_uninvested_wage_relief": 278714.58748484275,
+          "lifetime_total_tax": 628032.3239349845
+        }
+      }
+    },
+    "fixed_mtr_sensitivity": {
+      "0.025": {
+        "status_quo": 42357.29772686631,
+        "spender": 55498.92086776584,
+        "budget": 67230.96696030634
+      },
+      "0.05": {
+        "status_quo": 42357.29772686631,
+        "spender": 55498.92086776584,
+        "budget": 42636.39645668923
+      }
+    }
+  }
+}

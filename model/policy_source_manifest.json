@@ -1,0 +1,26 @@
+{
+  "accessed": "2026-11-11",
+  "files": [
+    {
+      "path": "tmp/pdfs/spender-white-paper.pdf",
+      "bytes": 3294951,
+      "sha256": "e2bc6113150a62518711720dcb74d168126f2989efc26b2d9d9c8960016ec4ff",
+      "source_url": "https://drive.google.com/file/d/1gjQ2EbS1AQGo50qg534E8qB4wNAfa6RD/view"
+    },
+    {
+      "path": "tmp/pdfs/budget-cgt-explainer.pdf",
+      "bytes": 434868,
+      "sha256": "0ac998ec1871b2cba83e885777ce03178e08f14b481d0f1ce92ccac933a79874",
+      "source_url": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
+    }
+  ],
+  "other_primary_sources": [
+    "https://www.legislation.gov.au/C2026A00049/asmade/2026-06-26/text/original/epub/OEBPS/document_1/document_1.html",
+    "https://treasury.gov.au/policy-topics/taxation/budget2026-27",
+    "https://www.ato.gov.au/law/view/pdf/acts/20250028.pdf",
+    "https://budget.gov.au/content/bp1/download/bp1_2026-27.pdf",
+    "https://treasury.gov.au/sites/default/files/2019-10/afts_final_report_part_1_consolidated.pdf",
+    "https://grattan.edu.au/news/reforming-the-capital-gains-tax-discount/",
+    "https://e61.in/wp-content/uploads/2026/09/How-many-housing-investors-pay-more-tax-under-the-reforms.pdf"
+  ]
+}
